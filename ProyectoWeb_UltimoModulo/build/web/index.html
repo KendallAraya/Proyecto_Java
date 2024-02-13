@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Facturación</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="lib/fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+    <style>
+        body {
+            background-color: #EE706D;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d15756' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .bg-custom {
+            background-color: #EE8B8B;
+            font-family: Impact, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3 bg-custom">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Sistema Facturación <i class="fas fa-tasks"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="frmListarFuncionarios.jsp">Funcionarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="frmListarClientes.jsp">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="FrmCompra.jsp">Factura de Compra</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="FrmVenta.jsp">Factura de Venta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="frmListarFacturas.jsp">Listado de Facturas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <p class="text-center display-4" style="font-family: Impact, sans-serif;">
+            Sistema de Facturacion para una Carniceria
+        </p>
+        <p class="text-center" style="font-family: Impact, sans-serif;">
+            Por medio del menú principal tendrá acceso a todas las opciones de la aplicación
+        </p>
+
+        <img src="images/vecteezy_fresh-red-meat-png-file_10179013_401.png" alt="" style="max-width: 60%; height: auto; display: block; margin: 0 auto;"/>
+
+        <br/><br/>
+    </div>
+
+    <footer class="bg-custom text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-custom">
+          © 2020 Copyright:
+          <p class="text-dark">Proyecto Java: Kendall Araya</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
+    <script src="lib/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+</body>
+</html>
